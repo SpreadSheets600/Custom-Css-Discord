@@ -1,0 +1,100 @@
+/* user grid */
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+
+/* Custom Font */
+
+@import  url(https://Timtaran.github.io/minecraft.ttf);
+:root  {
+--Chat-Font-Used:  'Consolas'; /* In Place Of Consolas Use Any Font */
+--Chat-Font-Size:  10px;
+}
+:not([class="hljs"]):not(code){
+font-family:  var(--Chat-Font-Used)!important;
+}
+.markup:not(code) {
+font-size:  var(--Chat-Font-Size)!important;
+}
+
+/* Hide GIFT button */
+
+.buttons-uaqb-5>.button-ejjZWC  {
+display:  none
+}
+
+/* Channel Names Capitalized */
+
+.channelName-3KPsGw  {
+text-transform:  capitalize;
+}
+
+/* Visible VC Text Button */
+
+#app-mount  .openChatIconItem-2kj5qO  {
+display:  flex;
+order:  1;
+justify-content:  center;
+border-radius:  4px;
+width:  42px;
+padding-right:  0;
+}
+.openChatIconItem-2kj5qO:hover  {  background-color:  var(--background-modifier-selected);  }
+.openChatIconItem-2kj5qO  .actionIcon-2sw4Sl  {  color:  var(--channels-default);  }
+
+
+
+
+/* Change the heading text color and font size */
+.titleBar {
+  color: #ff0000; /* Replace with your desired color */
+  font-size: 40px; /* Replace with your desired font size */
+}
+
+/* Adjust the title bar height */
+.titleBarContainer {
+  height: 40px; /* Replace with your desired height */
+}
+
+
+.userPopoutOverlayBackground-3A0Pcz {
+  background-color: rgba(0, 0, 0, 0.352);
+  border-radius: 1rem!important;
+}
+
+.messageInputContainer-24qqTx {
+  border-radius: 1rem!important;
+}
+
+.messageInput-1enlaJ {
+  border-radius: 1rem!important;
+}
+
+.memberSinceContainer-2CBD23 {
+  padding-left: 2rem;
+}
+
+.eyebrow-1Shfyi {
+  padding-left: 0.5rem;
+text-transform: unset!important;
+background-color: #ffffff05;
+border-radius: 1rem;
+}
+
+.pronouns-17_QV6 {
+  color: var(--text-normal);
+  background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
+  padding: 2px 8px;
+  margin-top: 3px;
+  border-radius: 4px;
+}
+
+@import url(https://seele1306.github.io/Snippets/ChatBubbles/import.css);
+:root {
+    /* Solid color only, no transparency! */
+    --chat-bubble-default: gray;
+    --chat-bubble-replying: cyan;
+    --chat-bubble-mentioned: orange;
+    --chat-bubble-border-radius: 8px;
+}
+
+  
+
