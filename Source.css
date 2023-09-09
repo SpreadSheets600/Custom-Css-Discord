@@ -27,7 +27,7 @@
 	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlistransparency,		var(--dmemberlisttransparency));
 	--vaccentcolor2:				var(--vaccentcolor);
-	--vlinkcolor:					var(--vaccentcolor);
+
 	
 	--vfont:						var(--font,							var(--dfont));
 	--vtextshadow:					var(--textshadow,					var(--dtextshadow));
