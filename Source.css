@@ -1185,9 +1185,7 @@ body::before {
 #app-mount .message-2qnXI6 .attachment-33OFj0 {
 	margin-left: 0;
 }
-#app-mount .filename-3eBB_v {								/* attachment			filename							*/
-	color:	rgb(var(--fontwhite1));
-}
+
 #app-mount .size-1Arx_I {									/* attachment			sizesize							*/
 	color:	rgb(var(--fontwhite4));
 }
