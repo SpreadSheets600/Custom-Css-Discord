@@ -1,5 +1,8 @@
+
+
 /* user grid */
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+
 
 /* Custom Font */
 
@@ -95,6 +98,3 @@ border-radius: 1rem;
     --chat-bubble-mentioned: orange;
     --chat-bubble-border-radius: 8px;
 }
-
-  
-
